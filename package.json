@@ -6,13 +6,19 @@
     "format:check": "prettier . --check"
   },
   "dependencies": {
-    "hono": "^4.6.11"
+    "drizzle-orm": "^0.36.3",
+    "hono": "^4.6.11",
+    "pg": "^8.13.1",
+    "postgres": "^3.4.5",
+    "zod": "^3.23.8"
   },
   "devDependencies": {
     "@eslint/compat": "^1.2.3",
     "@eslint/js": "^9.15.0",
     "@ianvs/prettier-plugin-sort-imports": "^4.4.0",
     "@types/bun": "latest",
+    "@types/pg": "^8.11.10",
+    "drizzle-kit": "^0.28.1",
     "eslint": "^9.15.0",
     "eslint-config-prettier": "^9.1.0",
     "eslint-plugin-drizzle": "^0.2.3",
